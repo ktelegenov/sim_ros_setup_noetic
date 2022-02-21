@@ -1,7 +1,6 @@
-# PX4 ROS Gazebo simulation
+# Gazebo simulation using ROS and PX4
 
-PX4 toolchain development environment setup for drone simulations in Gazebo and ROS
-
+To setup a Gazebo simulation running with ROS and PX4, you need to install a PX toolchain development environment. Run the following commands or follow instructions as in the video. The setup requires a clean installation of Ubuntu 20.04 on the computer.
 
 # Commands used 
 
@@ -29,3 +28,6 @@ Close the terminal and open it again
     export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd):$(pwd)/Tools/sitl_gazebo
 
     roslaunch px4 multi_uav_mavros_sitl.launch
+
+# Video
+[![Video setup](https://img.youtube.com/vi/9Mb-aV3lmZ0/0.jpg)](https://youtu.be/9Mb-aV3lmZ0)
